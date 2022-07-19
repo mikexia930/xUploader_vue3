@@ -1,0 +1,66 @@
+{
+  "name": "x-uploader-vue3",
+  "description": "Vue3 component for chunk upload",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "vue3",
+    "component",
+    "upload",
+    "chunk upload",
+    "sprakmd5"
+  ],
+  "main": "./dist/x-uploader-vue3.umd.js",
+  "module": "./dist/x-uploader-vue3.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/x-uploader-vue3.es.js",
+      "require": "./dist/x-uploader-vue3.umd.js"
+    }
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9",
+    "axios": "^0.27.2",
+    "vue": "^3.2.25",
+    "spark-md5": "^3.0.2"
+  },
+  "dependencies": {
+    "asynckit": "^0.4.0",
+    "delayed-stream": "^1.0.0",
+    "esbuild": "^0.14.49",
+    "csstype": "^2.6.20",
+    "follow-redirects": "^1.15.1",
+    "combined-stream": "^1.0.8",
+    "estree-walker": "^2.0.2",
+    "esbuild-darwin-64": "^0.14.49",
+    "function-bind": "^1.1.1",
+    "fsevents": "^2.3.2",
+    "has": "^1.0.3",
+    "form-data": "^4.0.0",
+    "mime-types": "^2.1.35",
+    "magic-string": "^0.25.9",
+    "is-core-module": "^2.9.0",
+    "mime-db": "^1.52.0",
+    "nanoid": "^3.3.4",
+    "picocolors": "^1.0.0",
+    "path-parse": "^1.0.7",
+    "postcss": "^8.4.14",
+    "rollup": "^2.77.0",
+    "source-map": "^0.6.1",
+    "resolve": "^1.22.1",
+    "sourcemap-codec": "^1.4.8",
+    "source-map-js": "^1.0.2",
+    "supports-preserve-symlinks-flag": "^1.0.0"
+  },
+  "author": ""
+}
